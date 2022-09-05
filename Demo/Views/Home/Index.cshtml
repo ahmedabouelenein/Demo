@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model Demo.Models.RegisterFormModel
+<br />
+<form id="frmRegisterForm" method="post" class="form">
+
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label>Name</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Email address</label>
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Age</label>
+        @Html.TextBoxFor(m => m.Age, new { @class = "form-control" })
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section scripts{
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld8xXoaAAAAAK894bbXNFMYspE6jLhQH8-kjX81"></script>
+    <script>
+        $(document).ready(function () {
+            $("#frmRegisterForm").submit(function (event) {
+                event.preventDefault();
+                alert()
+                grecaptcha.ready(function () {
+                    grecaptcha.execute('6Ld8xXoaAAAAAK894bbXNFMYspE6jLhQH8-kjX81', { action: 'submit' }).then(function (token) {
+                        var forgeryToken = $('input[name="__RequestVerificationToken"]').val();
+                        $.ajax({
+                            url: '/Home/SubmitForm',
+                            type: "POST",
+                            data: {
+                                __RequestVerificationToken: forgeryToken,
+                                name: $("#Name").val(),
+                                email: $("#Email").val(),
+                                age: $("#Age").val(),
+                                reCaptchaToken: token
+                            },
+                            success: function (result) {
+                                if (result.isSuccess) {
+                                    alert("Success")
+                                }
+                                else {
+                                    alert("Failed")
+                                }
+                            },
+                            error: function (req, status, error) {
+                                alert("Error")
+
+                            }
+                        })
+                    });
+                });
+
+            });
+
+        });
+
+    </script>
+}
