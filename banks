@@ -1,0 +1,229 @@
+                     
+                            {
+  "List": [
+    {
+      "BankName": "National Commercial Bank",
+      "BankCode": "NCBKSAJE",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168c1c27ef98a17e650688.png",
+      "IBANIdentifier": "10",
+      "IBANRegex": "^SA\\d{2}10[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "The Saudi British Bank",
+      "BankCode": "SABBSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168c2527ef98a17e650692.png",
+      "IBANIdentifier": "45",
+      "IBANRegex": "^SA\\d{2}45[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Banque Saudi Fransi",
+      "BankCode": "BSFRSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168c1727ef98a17e650683.png",
+      "IBANIdentifier": "55",
+      "IBANRegex": "^SA\\d{2}55[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Arab National Bank",
+      "BankCode": "ARNBSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168c1327ef98a17e65067e.png",
+      "IBANIdentifier": "30",
+      "IBANRegex": "^SA\\d{2}30[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Saudi Investment Bank",
+      "BankCode": "SIBCSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168c0927ef98a17e650674.png",
+      "IBANIdentifier": "65",
+      "IBANRegex": "^SA\\d{2}65[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Bank AlBilad",
+      "BankCode": "ALBISARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168bd527ef98a17e650642.png",
+      "IBANIdentifier": "15",
+      "IBANRegex": "^SA\\d{2}15[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Bank AlJazira",
+      "BankCode": "BJAZSAJE",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168be027ef98a17e65064c.png",
+      "IBANIdentifier": "60",
+      "IBANRegex": "^SA\\d{2}60[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Riyad Bank",
+      "BankCode": "RIBLSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168c2127ef98a17e65068d.png",
+      "IBANIdentifier": "20",
+      "IBANRegex": "^SA\\d{2}20[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Al Rajhi Bank",
+      "BankCode": "RJHISARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168be627ef98a17e650651.png",
+      "IBANIdentifier": "80",
+      "IBANRegex": "^SA\\d{2}80[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Alinma Bank",
+      "BankCode": "INMASARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168bdc27ef98a17e650647.png",
+      "IBANIdentifier": "05",
+      "IBANRegex": "^SA\\d{2}05[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Emirates NBD",
+      "BankCode": "EBILSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168bf527ef98a17e650660.png",
+      "IBANIdentifier": "95",
+      "IBANRegex": "^SA\\d{2}95[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Bank Muscat",
+      "BankCode": "BMUSSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168bea27ef98a17e650656.png",
+      "IBANIdentifier": "76",
+      "IBANRegex": "^SA\\d{2}76[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Gulf International Bank",
+      "BankCode": "GULFSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168bfa27ef98a17e650665.png",
+      "IBANIdentifier": "90",
+      "IBANRegex": "^SA\\d{2}90[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Deutsche Bank",
+      "BankCode": "DEUTSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/60168bf027ef98a17e65065b.png",
+      "IBANIdentifier": "81",
+      "IBANRegex": "^SA\\d{2}81[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "STC BANK",
+      "BankCode": "STCJSARI",
+      "ImageUrl": "",
+      "IBANIdentifier": "78",
+      "IBANRegex": "^SA\\d{2}78[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "BNP Paribas",
+      "BankCode": "BNPASARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b92b27ef9857d999a9bc.png",
+      "IBANIdentifier": "85",
+      "IBANRegex": "^SA\\d{2}85[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "MUFG Bank",
+      "BankCode": "BOTKSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b96327ef9857d999a9d1.png",
+      "IBANIdentifier": "88",
+      "IBANRegex": "^SA\\d{2}88[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "J.P. Morgan Chase Bank, N.A.(Riyadh Branch)",
+      "BankCode": "CHASSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b935c811f9ccbc4133f0.png",
+      "IBANIdentifier": "86",
+      "IBANRegex": "^SA\\d{2}86[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "FIRST ABU DHABI BANK",
+      "BankCode": "FABMSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b94827ef9857d999a9c6.png",
+      "IBANIdentifier": "73",
+      "IBANRegex": "^SA\\d{2}73[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Industrial and Commercial Bank of China",
+      "BankCode": "ICBKSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b95ac811f9ccbc413407.png",
+      "IBANIdentifier": "87",
+      "IBANRegex": "^SA\\d{2}87[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "National Bank of Bahrain",
+      "BankCode": "NBOBSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b98627ef9857d999a9e0.png",
+      "IBANIdentifier": "71",
+      "IBANRegex": "^SA\\d{2}71[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "National Bank of Kuwait",
+      "BankCode": "NBOKSAJE",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b97c27ef9857d999a9db.png",
+      "IBANIdentifier": "75",
+      "IBANRegex": "^SA\\d{2}75[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "National Bank Of Pakistan",
+      "BankCode": "NBPASARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b979c811f9ccbc41341c.png",
+      "IBANIdentifier": "82",
+      "IBANRegex": "^SA\\d{2}82[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "QATAR NATIONAL BANK BRANCH",
+      "BankCode": "QNBASARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b970c811f9ccbc413417.png",
+      "IBANIdentifier": "72",
+      "IBANRegex": "^SA\\d{2}72[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "Standard Chartered Bank. KSA Br",
+      "BankCode": "SCBLSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b99127ef9857d999a9e5.png",
+      "IBANIdentifier": "91",
+      "IBANRegex": "^SA\\d{2}91[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "T.C. ZIRAAT BANKASI A.S.",
+      "BankCode": "TCZBSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b9b1c811f9ccbc413429.png",
+      "IBANIdentifier": "84",
+      "IBANRegex": "^SA\\d{2}84[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "CREDIT SUISSE AG",
+      "BankCode": "CRESSARI",
+      "ImageUrl": "https://assets.stcpay.com.sa/fs/images/6329b93727ef9857d999a9c1.png",
+      "IBANIdentifier": "89",
+      "IBANRegex": "^SA\\d{2}89[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    },
+    {
+      "BankName": "D360 Bank",
+      "BankCode": "DBAKSARI",
+      "ImageUrl": "",
+      "IBANIdentifier": "36",
+      "IBANRegex": "^SA\\d{2}36[0-9A-Z]{18}$",
+      "IPSEnabled": true
+    }
+  ]
+}
